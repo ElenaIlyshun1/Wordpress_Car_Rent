@@ -33,6 +33,7 @@ function cr_enqueue()
 //підтримка меню на wordpress
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
+add_theme_support('widgets');
 
 add_action('after_setup_theme', 'theme_register_nav_menu');
 function theme_register_nav_menu()
